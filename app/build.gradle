@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "health.onvy"
-        minSdk 26
+        minSdk 28
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -40,6 +40,8 @@ android {
 
 dependencies {
 
+    implementation libs.ok.http
+    implementation libs.terra.android
     implementation libs.androidx.core.ktx
     implementation libs.androidx.appcompat
     implementation libs.material
